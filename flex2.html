@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> flex </title>
+        <style >
+          
+     body{
+          background-color: rgb(213, 242, 155);
+     }    
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+   
+    
+}
+
+.u1,.u2,.u3,.u4 {
+    border-bottom: 0.5px solid gray ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+}
+
+.user{
+    border-radius: 32px;
+    width: 70px;
+    margin: 20px;
+}
+
+.loc{
+    font-size: 20px;
+}
+
+span {
+    font-size: 14px;
+    color: gray;
+    display: block;
+} 
+
+
+
+.u1{
+    margin-top: 40px;
+    border-radius: 50px 50px 0px 0px;   
+}
+
+.u4{
+    margin-bottom: 40px;
+    border-radius: 0px 0px 50px 50px ;
+}
+
+</style>
+    </head>
+
+
+
+
+<body>
+
+<div class="flex-container">
+
+
+    <div class="u1">
+        <img src="red.png" class="user">
+        <div class="loc"><p>User #1</p><span>Amman, Jordan</span></div>       
+  
+    </div>
+
+    
+    <div class="u2">
+        <img src="red.png" class="user"> 
+         <div class="loc"><p>User #2</p><span>Salt, Jordan</span></div>
+
+  
+</div>
+
+
+<div class="u3">
+    <img src="red.png" class="user"> 
+        <div class="loc"><p>User #3</p><span>Zarqa, Jordan</span></div>
+   
+</div>
+
+<div class="u4">
+    <img src="red.png" class="user">  
+    <div class="loc"><p>User #4</p><span>Irbid, Jordan</span></div></div>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+    </html>
